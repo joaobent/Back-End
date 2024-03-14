@@ -51,7 +51,9 @@ else
 console.log('------------')
 
 let number=4
-if(number%2==0)
+if(number%2==0){
     console.log('É um numero par')
-else
+}
+else{
     console.log('É um numero impar')
+}
