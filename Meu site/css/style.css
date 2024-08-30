@@ -1,0 +1,70 @@
+:root {
+    --cor-fundo: linear-gradient(to right, #ffde59, #ff914d);
+}
+
+body {
+    background-image: var(--cor-fundo);
+    display: flex;
+    flex-direction: column;
+    height: 99vh;
+
+}
+
+main {
+    flex: 1 1 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#saldacao-pag-inicial {
+    font-weight: bolder;
+    width: 40vw;
+    font-size: 35pt;
+    text-align: center;
+}
+
+
+
+.cards {
+    display: inline-flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.card>img {
+    width: 180px;
+}
+
+.card>h3 {
+    margin: 0 0 5px 0;
+    font-weight: bolder;
+    font-size: 14pt;
+}
+
+.card>p {
+    margin-top: 5px;
+}
+
+.card{
+    text-align: center;
+    width: 25vw;
+    margin: 0 7%;
+}
+
+.titulo{
+    font-size: 17pt;
+    text-align: center;
+    font-weight: bolder;
+    margin: 5px 0;
+}
+
+.tam_card{
+    width: 80%;
+    height: 70%;
+}
+.tama_card{
+    width: 80%;
+    height: 70%;
+}
+

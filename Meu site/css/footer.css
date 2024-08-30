@@ -1,0 +1,39 @@
+footer>h3{
+    font-size: 17pt;
+    font-weight: bolder;
+    margin: 20px 1%;
+}
+
+.copyright{
+   text-align: center;
+   margin-top: 15px;
+}
+
+.ul-footer>li{
+    margin-left: 1%;
+}
+
+.ul-footer>li>p{
+    margin-top: 1%;
+}
+
+.ul-footer>li>p>a>i>span{
+    text-decoration: none;
+    margin-left: 2px;
+    color: black;
+}
+
+.ul-footer>li>p>a{
+    text-decoration: none;
+}
+
+#whatsapp{
+    color: green;
+}
+
+#instagram{
+    background-image: linear-gradient(#7f37c9, #ff2992, #ff9807);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
